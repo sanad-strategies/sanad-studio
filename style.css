@@ -187,7 +187,7 @@ header{
 
 .work-media img{ width:100%; display:block; border-radius:2px; }
 .media-row{ display:flex; gap:14px; }
-.media-row img{ width:100%; border-radius:2px; object-fit:cover; }
+.media-row img{ width:100%; min-width:0; flex:1 1 0; border-radius:2px; object-fit:cover; aspect-ratio:1/1; }
 
 .work-text p{ color:var(--muted); font-size:15.5px; max-width:48ch; margin:0 0 20px; }
 .work-text .visit{ font-size:14px; text-decoration:underline; text-underline-offset:3px; color:var(--ink); }
