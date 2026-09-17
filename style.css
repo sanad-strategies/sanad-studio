@@ -184,6 +184,7 @@ header{
   align-items:start;
 }
 @media (max-width:760px){ .work-grid{ grid-template-columns:1fr; gap:30px; } }
+@media (max-width:760px){ .media-row{ flex-direction:column; } }
 
 .work-media img{ width:100%; display:block; border-radius:2px; }
 .media-row{ display:flex; gap:14px; }
